@@ -14,7 +14,7 @@ import { Typewriter } from 'react-simple-typewriter'
 function Banner() {
 // text animation 
     let animationText =     <Typewriter
-    words={['Chatchawan', 'Web Developer', 'Frontend Dev', 'Backend Dev']}
+    words={['Chatchawan', 'Web Developer', 'Frontend Dev', 'Tester']}
     loop={Infinity}
     cursor
     cursorStyle='|'
@@ -118,11 +118,6 @@ function Banner() {
             <p className="greet-text">HELLO!</p>
             <h1 className='title'>I Am {animationText}</h1>
             <p className='description'>I am a Web Developer with more than 1 year of experience. My expertise is in creating and designing websites, designing systems, and much more...</p>
-
-            <div className="btnBx">
-                <button>My Project</button>
-                <button>Hire Me</button>
-            </div>
         </div>
     </div>
 

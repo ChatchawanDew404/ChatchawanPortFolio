@@ -16,7 +16,7 @@ function Project() {
    <>
     <section className="project">
       <div className="container">
-      <div className="heading"><h2>MY <span className="colorTx">Project</span></h2></div>
+      <div className="heading"><h2>MY <span className="colorTx">Website Project</span></h2></div>
 
       <div className="project_video_youtube">
       <div className="box">
@@ -53,70 +53,70 @@ function Project() {
         <div className="image"><img src="/public/images/pj_1.png" alt=""/></div>
         <div className="content">
           <h2>Full Stack</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_2.png" alt=""/></div>
         <div className="content">
           <h2>Frontend With React</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_3.png" alt=""/></div>
          <div className="content">
           <h2>Frontend Shopping Web</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_4.png" alt=""/></div>
          <div className="content">
           <h2>Full Stack Register</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_5.png" alt=""/></div>
          <div className="content">
           <h2>Responsive Design</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_1.png" alt=""/></div>
          <div className="content">
           <h2>Full Stack Web</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_2.png" alt=""/></div>
          <div className="content">
           <h2>Frontend With React</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_3.png" alt=""/></div>
          <div className="content">
           <h2>Frontend Shopping Web</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_4.png" alt=""/></div>
          <div className="content">
           <h2>Full Stack Register</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
       <SwiperSlide className='swiper-slide-bx'>
         <div className="image"><img src="/public/images/pj_5.png" alt=""/></div>
          <div className="content">
           <h2>Responsive Design</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates cumque, sunt ipsum iste tempora molestiae quia iure consectetur velit mollitia modi eligendi voluptatibus voluptatem iusto? Pariatur, enim iusto? Cum doloribus architecto quos laboriosam molestias fugit dolores beatae, adipisci</p>
+        
         </div>
       </SwiperSlide>
     

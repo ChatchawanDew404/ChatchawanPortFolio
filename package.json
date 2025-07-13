@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-icons": "^4.11.0",
-    "react-particles": "^2.12.2",
+    "react-icons": "^4.12.0",
     "react-router-dom": "^6.16.0",
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
@@ -30,5 +29,18 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChatchawanDew404/ccw_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChatchawanDew404/ccw_portfolio/issues"
+  },
+  "homepage": "https://github.com/ChatchawanDew404/ccw_portfolio#readme"
 }

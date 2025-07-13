@@ -28,7 +28,7 @@ window.addEventListener('scroll',() =>{
   return (
     <nav className={activeNavbar ? "nav_active": "nav"}>
         <div className="container">
-            <div className="logo">CCW</div>
+            <div className="logo">Chatchawan</div>
 
                 <div className="burgerBar" onClick={() => setBurgerActive(!burgerActive)}><RxHamburgerMenu/></div>
                 

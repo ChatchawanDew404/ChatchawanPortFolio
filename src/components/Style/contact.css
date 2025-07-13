@@ -1,76 +1,57 @@
-:root{
-    --red-color-1 : #f95353;
-   --red-colorHover-1 : rgb(147, 55, 55);
+.contact-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  font-family: sans-serif;
 }
 
-
-
-.contact{
-    padding: 10rem 0;
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
 }
 
-.contact form .inputBx{
-    display: grid;grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-.contact form .inputBx input{
-    border: none;
-    padding: 1.5rem;
-    border-radius: .5rem;
-    font-size: 1.5rem;
-    border: 1px solid white;
-
+.contact-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.contact form textarea:focus,
-.contact form .inputBx input:focus{
-   border: 1px solid var(--red-color-1);
-   outline: none;
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
-.contact form textarea{
-    resize: none;
-    width: 100%;
-    border: none;
-    padding: 1rem;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    border: 1px solid white;
+.icon {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
-.contact button{
-    margin-top: 3rem;
-    text-align: center;
-display: inline-block;
-border-radius: .5rem;
-background:var(--red-color-1);
-color: white;
-padding: .8rem 2.5rem;
-outline: none;
-border: none;
-font-size: 1.6rem;
-transition: all .1s ease;
-cursor: pointer;
-}
+.line { color: #00c300; }
+.facebook { color: #1877f2; }
+.instagram { color: #e1306c; }
+.github { color: #000; }
+.gmail { color: #ea4335; }
 
-.contact button:hover{
-    background:var(--red-colorHover-1);
-    cursor: pointer;
-}
 
-.credit{
-    text-align: center;
-    padding: 1rem;
-    background: #000;
-    color: white;
+.contact-grid span{
     font-size: 1.6rem;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
 
-/* MEDIA AUERY */
-@media screen and (max-width:768px){
-    .contact form .inputBx{
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 480px) {
+  .contact-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 }
