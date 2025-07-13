@@ -12,7 +12,7 @@ function About() {
     <>
     <Element className="about">
       <div className="container">
-        <div className="image"><img src="/public/images/img_01.jpg" alt="" /></div>
+        <div className="image"><img src="/images/img_01.jpg" alt="" /></div>
 
         <div className="content">
           <h2>Let me <span className="colorTx">introduce myself</span></h2>
